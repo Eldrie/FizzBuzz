@@ -10,10 +10,17 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Ingrese el numero:\n ");
-            int x = int.Parse(Console.ReadLine());
-            
+            //Divisible entre 3 Fizz o 5 Buzz o entre los 2 Fizz Buzz
+            Console.WriteLine("Fizz & Buzz");
+            for (int i = 1; i <= 100; i++)
+            {
 
+                if (i%3==0) {
+                    Console.WriteLine(i+ "Fizz");
+                            }
+            
+            }
+            
 
 
             Console.ReadLine();
