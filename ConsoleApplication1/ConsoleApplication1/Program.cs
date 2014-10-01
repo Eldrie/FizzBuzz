@@ -10,6 +10,15 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Ingrese el numero:\n ");
+            int x = int.Parse(Console.ReadLine());
+            
+
+
+
+            Console.ReadLine();
+
+
         }
     }
 }
